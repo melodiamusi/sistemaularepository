@@ -1,0 +1,6 @@
+@apiaulasindb_HostAddress = http://localhost:5132
+
+GET {{apiaulasindb_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
