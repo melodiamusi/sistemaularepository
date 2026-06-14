@@ -1,8 +1,7 @@
-﻿namespace apiaulasindb.Entidades
+﻿namespace apiaulasindb.Models.Dtos
 {
-    public class Notificación
+    public class CreateNotificacionDto
     {
-        public int Id { get; set; }
         public int UsuarioId { get; set; }
         public string Mensaje { get; set; } = string.Empty;
     }

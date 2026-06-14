@@ -1,10 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace apiaulasindb.Entidades
+﻿namespace apiaulasindb.Models.Dtos
 {
-    public class Reserva
+    public class ReservaDto
     {
-        [Key] // Llave primaria obligatoria
         public int Id { get; set; }
         public int AulaId { get; set; }
         public int UsuarioId { get; set; }

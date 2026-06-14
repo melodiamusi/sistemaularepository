@@ -1,10 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace apiaulasindb.Entidades
+﻿namespace apiaulasindb.Models.Dtos
 {
-    public class Horario
+    public class HorarioDto
     {
-        [Key] // Llave primaria obligatoria
         public int Id { get; set; }
         public string DiaSemana { get; set; } = string.Empty;
         public string HoraInicio { get; set; } = string.Empty;

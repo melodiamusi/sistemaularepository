@@ -1,6 +1,6 @@
-﻿namespace apiaulasindb.Entidades
+﻿namespace apiaulasindb.Models.Dtos
 {
-    public class Notificación
+    public class NotificacionDto
     {
         public int Id { get; set; }
         public int UsuarioId { get; set; }
